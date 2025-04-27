@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>나의 미술관</title>
+    <style>
+        body {
+            background-color: #4B5D67;
+            margin: 0;
+            padding: 40px;
+            font-family: 'Georgia', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: white;
+            font-size: 48px;
+            margin-bottom: 40px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .artwork {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .frame {
+            border: 15px solid gold;
+            background-color: #f9f6ef;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 400px;
+            width: 100%;
+        }
+        .frame img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .title {
+            margin-top: 10px;
+            color: #eee;
+            font-size: 16px;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>나의 미술관</h1>
+    <div class="gallery">
+
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork1.jpg" alt="작품 1">
+            </div>
+            <div class="title">작품 제목 1 - 2024</div>
+        </div>
+    
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork2.jpg" alt="작품 2">
+            </div>
+            <div class="title">작품 제목 2 - 2024</div>
+        </div>
+    
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork3.jpg" alt="작품 3">
+            </div>
+            <div class="title">작품 제목 3 - 2024</div>
+        </div>
+    
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork4.jpg" alt="작품 4">
+            </div>
+            <div class="title">작품 제목 4 - 2024</div>
+        </div>
+    
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork5.jpg" alt="작품 5">
+            </div>
+            <div class="title">작품 제목 5 - 2024</div>
+        </div>
+    
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork6.jpg" alt="작품 6">
+            </div>
+            <div class="title">작품 제목 6 - 2024</div>
+        </div>
+    
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork7.jpg" alt="작품 7">
+            </div>
+            <div class="title">작품 제목 7 - 2024</div>
+        </div>
+    
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork8.jpg" alt="작품 8">
+            </div>
+            <div class="title">작품 제목 8 - 2024</div>
+        </div>
+    
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork9.jpg" alt="작품 9">
+            </div>
+            <div class="title">작품 제목 9 - 2024</div>
+        </div>
+    
+        <div class="artwork">
+            <div class="frame">
+                <img src="artwork10.jpg" alt="작품 10">
+            </div>
+            <div class="title">작품 제목 10 - 2024</div>
+        </div>
+    
+    </div>
+</body>
+</html>
